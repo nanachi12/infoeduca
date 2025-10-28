@@ -1,0 +1,50 @@
+/* Estilos para la página de contacto */
+.contact-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    color: #0d6efd;
+}
+
+.team-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.social-links-large a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.social-links-large a:hover {
+    color: #0d6efd;
+}
+
+.social-links-large p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+}

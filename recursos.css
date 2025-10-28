@@ -1,0 +1,58 @@
+/* Estilos para la página de recursos */
+.resource-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+}
+
+.resource-icon {
+    color: #0d6efd;
+}
+
+.tool-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card:hover {
+    transform: translateY(-3px);
+}
+
+.book-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.skills-tags .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.text-orange {
+    color: #f48024 !important;
+}
+
+/* Colores para íconos de comunidades */
+.fa-stack-overflow { color: #f48024; }
+.fa-reddit { color: #ff4500; }
+.fa-dev { color: #0a0a0a; }
+.fa-discord { color: #5865f2; }
